@@ -17,7 +17,9 @@ bmi = round(bmi)
 
 sleep(1.0)
 print('\n'+'='*50+"\nCalculating...\n"+'='*50,'\n')
-sleep(1.5)
+sleep(0.75)
+print('\n'+'='*50+"\nCalculating...\n"+'='*50,'\n')
+sleep(0.75)
 if bmi>=30:
   print('-'*50)
   print("Status : Obesity! \nBMI Index :",bmi)
