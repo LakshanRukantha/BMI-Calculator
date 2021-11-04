@@ -1,5 +1,7 @@
-import os
+from os import system
+from time import sleep
 
+system(clear)
 weight = float(input("Enter your weight in (KG) : "))
 height = float(input("Enter your height in (CM) : "))
 height = float(height/100)
